@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: gold;
+    text-transform: uppercase;
+}
+
+h2{
+    color: gold;
+}
+
+h4{
+    color: white;
+}
+
+body{
+    background-image:url(/img/1291921.jpg) ;
+    background-size: cover;
+}
+
+.intro{
+    display: flex;
+    margin: 5px auto;
+}
+    
+.leftint img{
+    width: 170px;
+}
+    
+    
+.leftint{
+    display: cover;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px; 
+    
+}
+
+.Navbar{
+    float: right;
+    margin-left: 1400px;
+    margin-top: 30px;
+    justify-content: center;
+    text-transform: uppercase;
+    
+    
+
+}
+
+.Navbar a{
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    text-transform: bold;
+    font-size: larger;
+    transition: 0.5s;
+    text-decoration: none;
+    
+}
+
+.Navbar a:hover{
+    color: gold;
+}
+
+main{
+    padding: 20px;
+    margin: 15px;
+    margin-top: 100px;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 15px;
+
+}
+
+.image img{
+    padding: 20px;
+}
+
+.char{
+    display: flex;
+}
+
+.b{
+    padding: 20px;
+}
+
+.descc h4{
+    color: white;
+    text-align: center;
+}
+
+.imga img{
+    width: 120px;
+    height: 120px ;
+    border-radius: 500px;
+
+}
+
+.cont1{
+    padding: 20px;
+}
+
+.cont1 h2{
+    margin-left: 20px;
+    color: gold;
+}
+
+
+
