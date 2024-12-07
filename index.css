@@ -43,7 +43,8 @@ body{
     font-size: larger;
     transition: 0.5s;
     text-decoration: none;
-    
+    background-color: rgba(0, 92, 57, 0.404);
+    border-radius: 15%;
 }
 
 .Navbar a:hover{
