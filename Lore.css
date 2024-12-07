@@ -53,18 +53,19 @@ body{
 
 .Navbar a{
     padding: 12px;
-    color: rgb(255, 255, 255);
     text-transform: bold;
     font-size: larger;
     transition: 0.5s;
     text-decoration: none;
-    background-color: rgba(0, 92, 57, 0.404);
+    background-color: rgba(255, 255, 255, 0.404);
     border-radius: 15%;
+    color: black;
     
 }
 
 .Navbar a:hover{
-    color: gold;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.425);
 }
 
 main{
